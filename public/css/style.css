@@ -1,0 +1,49 @@
+.navbar{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.partieone{
+    width: 50px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.img1{
+    height: 100px;
+    width: 200px;
+}
+.minititre{
+ margin-left: 250px;
+}
+.glace{
+    width:150px;
+height: 150px;
+}
+
+.ccard{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cardd{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.taillecornet{
+    width: 125px;
+}
+.card2empartie{
+    display: flex;
+    justify-content: space-between;
+}
+.cc{
+    margin: 10px;
+}
+.centre{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
