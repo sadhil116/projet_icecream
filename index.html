@@ -26,6 +26,7 @@
             <a class="nav-link" href="#">Features</a>
             <a class="nav-link" href="#">Pricing</a>
             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <button class="btn btn-dark dark">Dark</button>
           </div>
         </div>
     </div>
@@ -197,6 +198,88 @@
                     now</button>
 
 
+<!-- <footer></footer> -->
+<footer style="background-color: #242424; height: auto; margin-top: 200px; display: flex; flex-wrap: wrap ; justify-content: space-between; padding: 50px 100px;">
+  <div style="flex: 1; margin-top: 50px;">
+      <div style="color: white; font-weight: bold; font-size: 36px; border-bottom: 2px solid white; width: 250px; padding-bottom: 20px;">
+          <p>Contact Us</p>
+      </div>
+      <div style="margin-top: 20px;">
+          <p class="text-white" style="font-size: 20px; border-bottom: 2px solid #393939; width: 450px; padding-bottom: 10px;">
+              NAME
+          </p>
+      </div>
+      <div style="margin-top: 20px;">
+          <p class="text-white" style="font-size: 20px; border-bottom: 2px solid #393939; width: 450px; padding-bottom: 10px;">
+              EMAIL
+          </p>
+      </div>
+      <div style="margin-top: 50px;">
+          <p class="text-white" style="font-size: 20px; border-bottom: 2px solid #393939; width: 450px; padding-bottom: 10px;">
+              PHONE NUMBER
+          </p>
+      </div>
+      <textarea name="" id="" placeholder="MESSAGE" style="background-color: #242424; padding: 15px; color: white; font-size: 18px; border-top: 2px solid #393939; border-left: none; border-right: none; width: 100%; margin-top: 20px; resize: none;"></textarea>
+      <button style="background-color: #fc95c3; color: white; font-weight: bold; font-size: 18px; border: none; width: 100%; margin-top: 25px; padding: 15px 0;">
+          SEND
+      </button>
+  </div>
+  <div style="flex: 1; color: white; margin-top: 50px;">
+      <div class="d-flex">
+          <i class="fa-solid fa-location-dot" style="color: #fc95c3; font-size: 30px;"></i>
+          <p style="color: white; font-size: 18px; margin-left: 10px;">Making this the first true</p>
+          <i class="fa-solid fa-phone" style="color: white; font-size: 25px; margin-left: 20px;"></i>
+          <p style="color: white; font-size: 18px; margin-left: 10px;">Call: +01 1234567890</p>
+          <i class="fa-solid fa-envelope" style="color: white; font-size: 25px; margin-left: 20px;"></i>
+          <p style="color: white; font-size: 18px; margin-left: 10px;">Email: demo@gmail.com</p>
+      </div>
+      <div style="margin-top: 100px;">
+          <h4 style="color: white; font-size: 24px;">Newsletter</h4>
+          <div class="d-flex mt-4">
+              <textarea name="" id="" placeholder="ENTER YOUR EMAIL" style="width: 70%; height: 40px; padding-left: 10px; font-size: 16px; border: none;"></textarea>
+              <button style="background-color: #fc95c3; color: white; font-size: 18px; border: none; padding: 10px 20px; margin-left: 10px;">
+                  SUBSCRIBE
+              </button>
+          </div>
+      </div>
+      <div style="margin-top: 50px; display: flex; justify-content: space-around;">
+          <i class="fa-brands fa-facebook-f" style="color:#242424; font-size: 30px; background-color: white; border-radius: 50%; height: 50px; width: 50px; display: flex; align-items: center; justify-content: center;"></i>
+          <i class="fa-brands fa-twitter" style="color:#242424; font-size: 30px; background-color: white; border-radius: 50%; height: 50px; width: 50px; display: flex; align-items: center; justify-content: center;"></i>
+          <i class="fa-brands fa-linkedin" style="color:#242424; font-size: 30px; background-color: white; border-radius: 50%; height: 50px; width: 50px; display: flex; align-items: center; justify-content: center;"></i>
+          <i class="fa-brands fa-instagram" style="color:#242424; font-size: 30px; background-color: white; border-radius: 50%; height: 50px; width: 50px; display: flex; align-items: center; justify-content: center;"></i>
+      </div>
+  </div>
+</footer>
+
+<footer style="background-color: #242424; height: 130px; text-align: center; padding: 20px 0;">
+  <hr style="color: white; width: 90%; margin: 0 auto;">
+  <p style="color: #b7b7b7; font-size: 18px; margin-top: 10px;">
+      2025 - Projet IceCream
+  </p>
+</footer>
+<button id="loginBtn" style="background-color: #fc95c3; color: white; font-weight: bold; font-size: 18px; border: none; padding: 10px 20px; position: fixed; bottom: 20px; right: 20px;">
+  Login
+</button>
+<div class="overlay" id="overlay"></div>
+<div class="modal" id="modal">
+  <div>
+      <span class="tab active" id="showLogin">Se connecter</span>
+      <span class="tab" id="showSignup">S'inscrire</span>
+  </div>
+  <form id="loginForm">
+      <h2>Connexion</h2>
+      <input type="email" placeholder="Email" required><br>
+      <input type="password" placeholder="Mot de passe" required><br>
+      <button type="submit">Se connecter</button>
+  </form>
+  <form id="signupForm" style="display: none;">
+      <h2>Inscription</h2>
+      <input type="text" placeholder="Nom" required><br>
+      <input type="email" placeholder="Email" required><br>
+      <input type="password" placeholder="Mot de passe" required><br>
+      <button type="submit">S'inscrire</button>
+  </form>
+</div>
 
 
 
